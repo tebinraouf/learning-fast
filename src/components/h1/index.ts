@@ -1,3 +1,3 @@
-import { app } from './h1.js';
+import { h1component } from './h1.js';
 
-app.define();
+h1component.define();

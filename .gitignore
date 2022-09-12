@@ -2,3 +2,4 @@ node_modules/
 yarn.lock
 dist/
 www/
+.DS_STORE

@@ -7,7 +7,7 @@ export class H1Component extends FASTElement {
 
 }
 
-export const app = H1Component.compose({
+export const h1component = H1Component.compose({
     name: "tebin-h1",
     template,
     styles,

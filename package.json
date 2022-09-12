@@ -12,7 +12,7 @@
     "test": "yarn build"
   },
   "author": {
-    "name": "Tebin Raouf"
+    "name": "Tebin Raouf - (Original author: Microsoft FAST team)"
   },
   "homepage": "",
   "license": "MIT",
