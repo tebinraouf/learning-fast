@@ -1,4 +1,4 @@
-# Building Web Components 101 - Part 2
+# Building Web Components 101 - Part 3
 
 This is a sample repository to show how to build web components based on FAST.
 
