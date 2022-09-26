@@ -24,10 +24,16 @@
     <tebin-h1 color="#41aea9">Albert Einstein</tebin-h1>
     <p>Life is like riding a bicycle. To keep your balance, you must keep moving.</p>
 
-    <tebin-h1 color="blue">Albert Einstein</tebin-h1>
-    <p>Life is like riding a bicycle. To keep your balance, you must keep moving.</p>
+    <tebin-h1 color="blue" id="blue-title">Albert Einstein</tebin-h1>
+    <p id="ae-quote">Life is like riding a bicycle. To keep your balance, you must keep moving.</p>
+
 
     <script src="www/bundle.js"></script>
+    <script>
+        document.getElementById("blue-title").addEventListener('colorhandler', function (e) {
+            document.getElementById("ae-quote").innerText = e.detail;
+        });
+    </script>
 </body>
 
 </html>
